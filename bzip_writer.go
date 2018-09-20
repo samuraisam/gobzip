@@ -3,6 +3,7 @@ package gobzip
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include <bzlib.h>
+// #include <stddef.h>
 // #cgo LDFLAGS: -lbz2
 import "C"
 
